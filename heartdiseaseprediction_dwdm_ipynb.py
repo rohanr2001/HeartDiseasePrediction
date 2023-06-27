@@ -243,8 +243,6 @@ def heartdisease(age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slop
 
     return no
 
-!pip install gradio
-
 import gradio as gr
 
 outputs = gr.outputs.Textbox()
